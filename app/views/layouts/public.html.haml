@@ -14,7 +14,8 @@
             - unless whitelist_mode?
               = link_to t('directories.directory'), explore_path, class: 'nav-link optional' if Setting.profile_directory
               = link_to t('about.about_this'), about_more_path, class: 'nav-link optional'
-              = link_to t('about.apps'), 'https://joinmastodon.org/apps', class: 'nav-link optional'
+              = link_to t('about.apps'), '/apps', class: 'nav-link optional'
+              = link_to 'Funding', '/funding', class: 'nav-link optional'
 
           .nav-center
 
@@ -41,17 +42,17 @@
               %li= link_to t('about.documentation'), 'https://docs.joinmastodon.org/'
               %li= link_to t('about.api'), 'https://docs.joinmastodon.org/api/guidelines/'
           .column-2
-            %h4= link_to t('about.what_is_mastodon'), 'https://joinmastodon.org/'
+            %h4= link_to t('about.what_is_mastodon'), 'https://mstdn.social/about/more'
             = link_to svg_logo, root_url, class: 'brand'
           .column-3
             %h4= site_hostname
             %ul
               %li= link_to t('about.about_this'), about_more_path
-              %li= "v#{Mastodon::Version.to_s}"
+              %li= link_to "v#{Mastodon::Version.to_s}", Mastodon::Version.source_url
           .column-4
             %h4= t 'footer.more'
             %ul
-              %li= link_to t('about.source_code'), Mastodon::Version.source_url
-              %li= link_to t('about.apps'), 'https://joinmastodon.org/apps'
+              %li= link_to 'Funding', '/funding'
+              %li= link_to t('about.apps'), '/apps'
 
 = render template: 'layouts/application'
