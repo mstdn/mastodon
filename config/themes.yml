@@ -3,3 +3,8 @@ contrast: styles/contrast.scss
 mastodon-light: styles/mastodon-light.scss
 photon-light: styles/photon_light.scss
 photon-dark: styles/photon_dark.scss
+photon-green: styles/photon_green.scss
+photon-purple: styles/photon_purple.scss
+witches-town: styles/witches-town.scss
+sleepingtown: styles/sleepingtown.scss
+geodude: styles/geodude.scss
