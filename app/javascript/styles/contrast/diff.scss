@@ -20,14 +20,14 @@
 .status__content a,
 .reply-indicator__content a {
   color: lighten($ui-highlight-color, 12%);
-  text-decoration: underline;
+  text-decoration: none;
 
   &.mention {
     text-decoration: none;
   }
 
   &.mention span {
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover,
     &:focus,
@@ -49,7 +49,7 @@
 }
 
 .status__content__read-more-button {
-  text-decoration: underline;
+  text-decoration: none;
 
   &:hover,
   &:focus,
@@ -59,7 +59,7 @@
 }
 
 .getting-started__footer a {
-  text-decoration: underline;
+  text-decoration: none;
 
   &:hover,
   &:focus,
