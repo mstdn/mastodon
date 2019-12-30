@@ -11,7 +11,7 @@ gem 'sprockets', '~> 3.7'
 gem 'thor', '~> 0.20'
 
 gem 'hamlit-rails', '~> 0.2'
-gem 'pg', '~> 1.1'
+gem 'pg', '~> 1.2'
 gem 'makara', '~> 0.4'
 gem 'pghero', '~> 2.4'
 gem 'dotenv-rails', '~> 2.7'
@@ -50,7 +50,7 @@ gem 'fast_blank', '~> 1.0'
 gem 'fastimage'
 gem 'goldfinger', '~> 2.1'
 gem 'hiredis', '~> 0.6'
-gem 'redis-namespace', '~> 1.5'
+gem 'redis-namespace', '~> 1.7'
 gem 'health_check', git: 'https://github.com/ianheggie/health_check', ref: '0b799ead604f900ed50685e9b2d469cd2befba5b'
 gem 'htmlentities', '~> 4.3'
 gem 'http', '~> 3.3'
@@ -64,7 +64,7 @@ gem 'mime-types', '~> 3.3', require: 'mime/types/columnar'
 gem 'nilsimsa', git: 'https://github.com/witgo/nilsimsa', ref: 'fd184883048b922b176939f851338d0a4971a532'
 gem 'nokogiri', '~> 1.10'
 gem 'nsa', '~> 0.2'
-gem 'oj', '~> 3.9'
+gem 'oj', '~> 3.10'
 gem 'ostatus2', '~> 2.0'
 gem 'ox', '~> 2.11'
 gem 'parslet'
@@ -117,7 +117,7 @@ end
 group :test do
   gem 'capybara', '~> 3.29'
   gem 'climate_control', '~> 0.2'
-  gem 'faker', '~> 2.8'
+  gem 'faker', '~> 2.10'
   gem 'microformats', '~> 4.1'
   gem 'rails-controller-testing', '~> 1.0'
   gem 'rspec-sidekiq', '~> 3.0'
@@ -135,7 +135,7 @@ group :development do
   gem 'letter_opener', '~> 1.7'
   gem 'letter_opener_web', '~> 1.3'
   gem 'memory_profiler'
-  gem 'rubocop', '~> 0.77', require: false
+  gem 'rubocop', '~> 0.78', require: false
   gem 'rubocop-rails', '~> 2.4', require: false
   gem 'brakeman', '~> 4.7', require: false
   gem 'bundler-audit', '~> 0.6', require: false
