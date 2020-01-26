@@ -6,12 +6,13 @@ class PublishScheduledAnnouncementWorker
 
   def perform(announcement_id)
     announcement = Announcement.find(announcement_id)
-    announcement.update(published: true)
+
+    announcement.update(published: true, published_at: Time.now.utc, scheduled_at: nil) unless announcement.published?
 
     payload = InlineRenderer.render(announcement, nil, :announcement)
     payload = Oj.dump(event: :announcement, payload: payload)
 
-    Account.joins(:user).where('users.current_sign_in_at > ?', User::ACTIVE_DURATION.ago).find_each do |account|
+    FeedManager.instance.with_active_accounts do |account|
       redis.publish("timeline:#{account.id}", payload) if redis.exists("subscribed:timeline:#{account.id}")
     end
   end
