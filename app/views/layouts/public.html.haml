@@ -28,7 +28,7 @@
 
     .container= yield
 
-    .container
+    ..container
       .footer
         .grid
           .column-0
@@ -36,11 +36,13 @@
             %ul
               %li= link_to t('about.terms'), terms_path
               %li= link_to t('about.privacy_policy'), terms_path
+              %li= link_to 'The Team', '/team'
           .column-1
             %h4= t 'footer.developers'
             %ul
               %li= link_to t('about.documentation'), 'https://docs.joinmastodon.org/'
               %li= link_to t('about.api'), 'https://docs.joinmastodon.org/api/guidelines/'
+              %li= link_to "v#{Mastodon::Version.to_s}", Mastodon::Version.source_url
           .column-2
             %h4= link_to t('about.what_is_mastodon'), 'https://mstdn.social/about/more'
             = link_to svg_logo, root_url, class: 'brand'
@@ -48,11 +50,13 @@
             %h4= site_hostname
             %ul
               %li= link_to t('about.about_this'), about_more_path
-              %li= link_to "v#{Mastodon::Version.to_s}", Mastodon::Version.source_url
+              %li= link_to 'Explore', '/public'
+              %li= link_to t('directories.directory'), '/explore'
           .column-4
             %h4= t 'footer.more'
             %ul
-              %li= link_to 'Funding', '/funding'
               %li= link_to t('about.apps'), '/apps'
+              %li= link_to 'Funding', '/funding'
+              %li= link_to 'Administrator', '/@stux'
 
 = render template: 'layouts/application'
