@@ -113,6 +113,14 @@ class GettingStarted extends ImmutablePureComponent {
       }
 
       navItems.push(
+        <ColumnSubheading key={i++} text={intl.formatMessage(messages.information)} />,
+          <ColumnLink key={i++} icon='info-circle' text={intl.formatMessage(messages.information_acct)} to='/accounts/22303' />,
+        <ColumnLink key={i++} icon='hashtag' text={intl.formatMessage(messages.hashtag_fediverse)} to='/timelines/tag/fediverse' />,
+      );
+
+      height += 34 + 48*2;
+
+      navItems.push(
         <ColumnSubheading key={i++} text={intl.formatMessage(messages.personal)} />,
       );
 
