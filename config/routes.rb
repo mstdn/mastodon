@@ -480,6 +480,7 @@ Rails.application.routes.draw do
   get '/apps',        to: 'about#apps'
   get '/team',        to: 'about#team'
   get '/funding',        to: 'about#funding'
+  get '/discover',       to: 'about#discover'
 
   match '/', via: [:post, :put, :patch, :delete], to: 'application#raise_not_found', format: false
   match '*unmatched_route', via: :all, to: 'application#raise_not_found', format: false
