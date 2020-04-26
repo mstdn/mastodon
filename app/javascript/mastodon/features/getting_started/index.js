@@ -36,8 +36,6 @@ const messages = defineMessages({
   security: { id: 'navigation_bar.security', defaultMessage: 'Security' },
   menu: { id: 'getting_started.heading', defaultMessage: 'Getting started' },
   profile_directory: { id: 'getting_started.directory', defaultMessage: 'Profile directory' },
-  information_acct: { id: 'navigation_bar.information_acct', defaultMessage: 'Announcements' },
-  hashtag_qoto_journal: { id: 'navigation_bar.hashtag_fediverse', defaultMessage: '#fediverse' },
 });
 
 const mapStateToProps = state => ({
@@ -113,14 +111,6 @@ class GettingStarted extends ImmutablePureComponent {
 
         height += 48;
       }
-
-      navItems.push(
-        <ColumnSubheading key={i++} text={intl.formatMessage(messages.information)} />,
-        <ColumnLink key={i++} icon='info-circle' text={intl.formatMessage(messages.information_acct)} to='/accounts/22303' />,
-        <ColumnLink key={i++} icon='hashtag' text={intl.formatMessage(messages.hashtag_fediverse)} to='/timelines/tag/fediverse' />,
-      );
-
-      height += 34 + 48*2;
 
       navItems.push(
         <ColumnSubheading key={i++} text={intl.formatMessage(messages.personal)} />,
