@@ -9,3 +9,5 @@ witches-town: styles/witches-town.scss
 sleepingtown: styles/sleepingtown.scss
 geodude: styles/geodude.scss
 mstdn: styles/mstdn.scss
+dark-red: styles/dark_red.scss
+light-red: styles/light_red.scss
