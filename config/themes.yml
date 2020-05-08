@@ -11,3 +11,5 @@ geodude: styles/geodude.scss
 mstdn: styles/mstdn.scss
 dark-red: styles/dark_red.scss
 light-red: styles/light_red.scss
+dark-green: styles/dark_green.scss
+light-green: styles/light_green.scss
