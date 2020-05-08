@@ -13,3 +13,5 @@ dark-red: styles/dark_red.scss
 light-red: styles/light_red.scss
 dark-green: styles/dark_green.scss
 light-green: styles/light_green.scss
+dark-yellow: styles/dark_yellow.scss
+light-yellow: styles/light_yellow.scss
