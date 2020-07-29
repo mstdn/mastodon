@@ -15,4 +15,5 @@ witches-town: styles/witches-town.scss
 sleepingtown: styles/sleepingtown.scss
 material-dark: styles/material-dark.scss
 material-light: styles/material-light.scss
+masterial: styles/masterial.scss
 gplus: styles/gplus.scss
