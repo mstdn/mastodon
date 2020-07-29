@@ -1,6 +1,13 @@
 default: styles/application.scss
 contrast: styles/contrast.scss
 mastodon-light: styles/mastodon-light.scss
+dark-red: styles/dark_red.scss
+light-red: styles/light_red.scss
+dark-green: styles/dark_green.scss
+light-green: styles/light_green.scss
+dark-yellow: styles/dark_yellow.scss
+light-yellow: styles/light_yellow.scss
+mstdn: styles/mstdn.scss
 photon-light: styles/photon_light.scss
 photon-dark: styles/photon_dark.scss
 photon-green: styles/photon_green.scss
@@ -8,10 +15,4 @@ photon-purple: styles/photon_purple.scss
 witches-town: styles/witches-town.scss
 sleepingtown: styles/sleepingtown.scss
 geodude: styles/geodude.scss
-mstdn: styles/mstdn.scss
-dark-red: styles/dark_red.scss
-light-red: styles/light_red.scss
-dark-green: styles/dark_green.scss
-light-green: styles/light_green.scss
-dark-yellow: styles/dark_yellow.scss
-light-yellow: styles/light_yellow.scss
+mastodon-material: styles/mastodon-material.scss

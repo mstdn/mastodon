@@ -1258,6 +1258,21 @@ en:
     contrast: Mastodon (High contrast)
     default: Mastodon (Dark)
     mastodon-light: Mastodon (Light)
+    dark-red: Mastodon Red (Dark)
+    light-red: Mastodon Red (Light)
+    dark-green: Mastodon Green (Dark)
+    light-green: Mastodon Green (Light)
+    dark-yellow: Mastodon Yellow (Dark)
+    light-yellow: Mastodon Yellow (Light)
+    mstdn: Mstdn
+    photon-light: Photon Light
+    photon-dark: Photon Dark
+    photon-green: Photon Green (Dark)
+    photon-purple: Photon Purple (Dark)
+    witches-town: Witches Town
+    sleepingtown: Sleepingtown
+    geodude: Geodude
+    mastodon-material: Material Dark
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
