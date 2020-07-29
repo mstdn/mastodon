@@ -17,3 +17,4 @@ sleepingtown: styles/sleepingtown.scss
 geodude: styles/geodude.scss
 material-dark: styles/material-dark.scss
 material-light: styles/material-light.scss
+gplus: styles/gplus.scss

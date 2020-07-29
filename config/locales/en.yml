@@ -1265,8 +1265,8 @@ en:
     dark-yellow: Mastodon Yellow (Dark)
     light-yellow: Mastodon Yellow (Light)
     mstdn: Mstdn
-    photon-light: Photon Light
-    photon-dark: Photon Dark
+    photon-light: Photon (Light)
+    photon-dark: Photon (Dark)
     photon-green: Photon Green (Dark)
     photon-purple: Photon Purple (Dark)
     witches-town: Witches Town
@@ -1274,6 +1274,7 @@ en:
     geodude: Geodude
     material-dark: Material Dark
     material-light: Material Light
+    gplus: G-Plus
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
