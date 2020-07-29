@@ -7,14 +7,12 @@ dark-green: styles/dark_green.scss
 light-green: styles/light_green.scss
 dark-yellow: styles/dark_yellow.scss
 light-yellow: styles/light_yellow.scss
-mstdn: styles/mstdn.scss
 photon-light: styles/photon_light.scss
 photon-dark: styles/photon_dark.scss
 photon-green: styles/photon_green.scss
 photon-purple: styles/photon_purple.scss
 witches-town: styles/witches-town.scss
 sleepingtown: styles/sleepingtown.scss
-geodude: styles/geodude.scss
 material-dark: styles/material-dark.scss
 material-light: styles/material-light.scss
 gplus: styles/gplus.scss
