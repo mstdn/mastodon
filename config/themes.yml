@@ -15,4 +15,5 @@ photon-purple: styles/photon_purple.scss
 witches-town: styles/witches-town.scss
 sleepingtown: styles/sleepingtown.scss
 geodude: styles/geodude.scss
-mastodon-material: styles/mastodon-material.scss
+material-dark: styles/material-dark.scss
+material-light: styles/material-light.scss

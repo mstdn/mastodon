@@ -1272,7 +1272,8 @@ en:
     witches-town: Witches Town
     sleepingtown: Sleepingtown
     geodude: Geodude
-    mastodon-material: Material Dark
+    material-dark: Material Dark
+    material-light: Material Light
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
